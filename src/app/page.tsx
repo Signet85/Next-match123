@@ -1,12 +1,20 @@
 import { Button } from "@heroui/button";
+import Link from "next/link";
 import {FaRegSmile} from "react-icons/fa"
 
 export default function Home() {
   return (
     <div>
     <h1 className='text-3xl'>hello1</h1>
-    <Button color="primary" variant="bordered"
-     startContent={<FaRegSmile size={20}/>}>click me</Button>
+    <Button 
+      as={Link}
+      href='/members'
+      color="primary" 
+      variant="bordered"
+      startContent={<FaRegSmile size={20}/>}
+      >
+        click me
+      </Button>
     </div>
   );
 }
