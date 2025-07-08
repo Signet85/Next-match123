@@ -1,5 +1,3 @@
-// tailwind.config.js
-// eslint-disable-next-line @typescript-eslint/no-require-imports
 import { heroui } from "@heroui/react";
 
 /** @type {import('tailwindcss').Config} */
